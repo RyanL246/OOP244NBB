@@ -1,0 +1,41 @@
+Seneca Print Desk
+ 1- Add to Ticket
+ 2- Display Ticket
+ 3- Save and Start New Ticket
+ 4- List Finishing Services
+ 5- List Print Jobs
+ 0- End Program
+> 4
+Available Finishing Services
+========================================
+Comb binding.....................  20.00
+Spiral binding...................  24.00
+Thermal binding..................  28.00
+Corner stapling..................  12.00
+Document lamination..............  30.00
+Hole punching....................   8.00
+Cover trimming...................  16.00
+Sheet folding....................  14.00
+========================================
+Seneca Print Desk
+ 1- Add to Ticket
+ 2- Display Ticket
+ 3- Save and Start New Ticket
+ 4- List Finishing Services
+ 5- List Print Jobs
+ 0- End Program
+> 5
+Available Print Jobs
+========================================
+Course handout...................  10.00
+Club poster......................   8.00
+Research diagram.................  12.00
+========================================
+Seneca Print Desk
+ 1- Add to Ticket
+ 2- Display Ticket
+ 3- Save and Start New Ticket
+ 4- List Finishing Services
+ 5- List Print Jobs
+ 0- End Program
+> 0

@@ -1,0 +1,13 @@
+Testing an invalid PrintDesk when a data file contains malformed data.
+Passed!
+Testing input validation...............................
+      Print Catalog
+       1- Course handout
+       2- Club poster
+       3- Research diagram
+       0- Back to Ticket
+      > -1
+Invalid value: [0<= value <=3], try again: 4
+Invalid value: [0<= value <=3], try again: abc
+Invalid integer: 123abc
+Only an integer please: 0

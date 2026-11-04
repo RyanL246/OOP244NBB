@@ -1,0 +1,104 @@
+Seneca Print Desk
+ 1- Add to Ticket
+ 2- Display Ticket
+ 3- Save and Start New Ticket
+ 4- List Finishing Services
+ 5- List Print Jobs
+ 0- End Program
+> 1
+   Ticket Menu
+    1- Finishing service
+    2- Print job
+    0- Back to main menu
+   > 1
+      Finishing Catalog
+       1- Comb binding
+       2- Spiral binding
+       3- Thermal binding
+       4- Corner stapling
+       5- Document lamination
+       6- Hole punching
+       7- Cover trimming
+       8- Sheet folding
+       0- Back to Ticket
+      > 1
+         Finishing Service Selection
+          1- Staff finished
+          2- Self service
+          0- Back
+         > 2
+Production notes
+> bind on left
+   Ticket Menu
+    1- Finishing service
+    2- Print job
+    0- Back to main menu
+   > 2
+      Print Catalog
+       1- Course handout
+       2- Club poster
+       3- Research diagram
+       0- Back to Ticket
+      > 2
+         Print Format Selection
+          1- A5
+          2- A4
+          3- A3
+          4- A2
+          0- Back
+         > 1
+   Ticket Menu
+    1- Finishing service
+    2- Print job
+    0- Back to main menu
+   > 1
+      Finishing Catalog
+       1- Comb binding
+       2- Spiral binding
+       3- Thermal binding
+       4- Corner stapling
+       5- Document lamination
+       6- Hole punching
+       7- Cover trimming
+       8- Sheet folding
+       0- Back to Ticket
+      > 6
+         Finishing Service Selection
+          1- Staff finished
+          2- Self service
+          0- Back
+         > 1
+Production notes
+> 
+   Ticket Menu
+    1- Finishing service
+    2- Print job
+    0- Back to main menu
+   > 0
+Seneca Print Desk
+ 1- Add to Ticket
+ 2- Display Ticket
+ 3- Save and Start New Ticket
+ 4- List Finishing Services
+ 5- List Print Jobs
+ 0- End Program
+> 2
+Ticket # 001 =============================
+Comb binding................Self.  10.00 >> bind on left
+Club poster.................A5...   4.00
+Hole punching...............Staff   8.00
+                     Total:        22.00
+                     Tax:           2.86
+                     Total+Tax:    24.86
+========================================
+Seneca Print Desk
+ 1- Add to Ticket
+ 2- Display Ticket
+ 3- Save and Start New Ticket
+ 4- List Finishing Services
+ 5- List Print Jobs
+ 0- End Program
+> 0
+ 1- Yes
+ 0- No
+> 1

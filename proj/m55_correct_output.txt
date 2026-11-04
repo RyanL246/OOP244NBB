@@ -1,0 +1,74 @@
+Seneca Print Desk
+ 1- Add to Ticket
+ 2- Display Ticket
+ 3- Save and Start New Ticket
+ 4- List Finishing Services
+ 5- List Print Jobs
+ 0- End Program
+> 1
+   Ticket Menu
+    1- Finishing service
+    2- Print job
+    0- Back to main menu
+   > 2
+      Print Catalog
+       1- Course handout
+       2- Club poster
+       3- Research diagram
+       0- Back to Ticket
+      > 2
+         Print Format Selection
+          1- A5
+          2- A4
+          3- A3
+          4- A2
+          0- Back
+         > 2
+   Ticket Menu
+    1- Finishing service
+    2- Print job
+    0- Back to main menu
+   > 0
+Seneca Print Desk
+ 1- Add to Ticket
+ 2- Display Ticket
+ 3- Save and Start New Ticket
+ 4- List Finishing Services
+ 5- List Print Jobs
+ 0- End Program
+> 2
+Ticket # 001 =============================
+Club poster.................A4...   6.00
+                     Total:         6.00
+                     Tax:           0.78
+                     Total+Tax:     6.78
+========================================
+Seneca Print Desk
+ 1- Add to Ticket
+ 2- Display Ticket
+ 3- Save and Start New Ticket
+ 4- List Finishing Services
+ 5- List Print Jobs
+ 0- End Program
+> 0
+ 1- Yes
+ 0- No
+> 0
+Seneca Print Desk
+ 1- Add to Ticket
+ 2- Display Ticket
+ 3- Save and Start New Ticket
+ 4- List Finishing Services
+ 5- List Print Jobs
+ 0- End Program
+> 3
+Saved ticket number 1
+Starting ticket number 2
+Seneca Print Desk
+ 1- Add to Ticket
+ 2- Display Ticket
+ 3- Save and Start New Ticket
+ 4- List Finishing Services
+ 5- List Print Jobs
+ 0- End Program
+> 0

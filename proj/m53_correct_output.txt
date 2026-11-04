@@ -1,0 +1,68 @@
+Seneca Print Desk
+ 1- Add to Ticket
+ 2- Display Ticket
+ 3- Save and Start New Ticket
+ 4- List Finishing Services
+ 5- List Print Jobs
+ 0- End Program
+> 1
+   Ticket Menu
+    1- Finishing service
+    2- Print job
+    0- Back to main menu
+   > 1
+      Finishing Catalog
+       1- Comb binding
+       2- Spiral binding
+       3- Thermal binding
+       4- Corner stapling
+       5- Document lamination
+       6- Hole punching
+       7- Cover trimming
+       8- Sheet folding
+       0- Back to Ticket
+      > 1
+         Finishing Service Selection
+          1- Staff finished
+          2- Self service
+          0- Back
+         > 0
+   Ticket Menu
+    1- Finishing service
+    2- Print job
+    0- Back to main menu
+   > 1
+      Finishing Catalog
+       1- Comb binding
+       2- Spiral binding
+       3- Thermal binding
+       4- Corner stapling
+       5- Document lamination
+       6- Hole punching
+       7- Cover trimming
+       8- Sheet folding
+       0- Back to Ticket
+      > 1
+         Finishing Service Selection
+          1- Staff finished
+          2- Self service
+          0- Back
+         > 1
+Production notes
+> bind on left
+   Ticket Menu
+    1- Finishing service
+    2- Print job
+    0- Back to main menu
+   > 0
+Seneca Print Desk
+ 1- Add to Ticket
+ 2- Display Ticket
+ 3- Save and Start New Ticket
+ 4- List Finishing Services
+ 5- List Print Jobs
+ 0- End Program
+> 0
+ 1- Yes
+ 0- No
+> 1
