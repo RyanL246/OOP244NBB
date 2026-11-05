@@ -12,7 +12,7 @@ MenuItem::MenuItem(const char *contents, uint indentation, uint chars_per_indent
     const bool has_contents         = size > 0 && size < MenuItemContentsLimit && !ut.isspace(contents);
     const bool within_indent_bounds = indentation <= INDENT_DIMENSIONS_LIMIT && chars_per_indent <= INDENT_DIMENSIONS_LIMIT;
 
-    if (!has_contents || !within_indent_bounds || enumeration > MaximumNumberOfMenuItems) {
+    if (!has_contents || !within_indent_bounds || enumeration > (int) MaximumNumberOfMenuItems) {
         m_contents[0] = 0;
     } else {
         m_enumeration = enumeration;
