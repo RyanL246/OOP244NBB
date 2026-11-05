@@ -29,26 +29,26 @@ MenuItem::operator bool() const {
 
 
 std::ostream& MenuItem::display(std::ostream& ostr) const {
-    const char *trimmed_contents, *enumeration_suffix;
-    char indent[m_chars_per_indent + 1];
+    const char *trimmed_contents = m_contents;
+    char indent[INDENT_DIMENSIONS_LIMIT + 1] = {0};
 
     if (*this) {
-        enumeration_suffix = (m_enumeration < 0) ? " " : "- ";
-
-        for (trimmed_contents = m_contents; ut.isspace(*trimmed_contents); trimmed_contents++);
+        while (ut.isspace(*trimmed_contents)) trimmed_contents++;
 
         for (int i = 0; i < m_chars_per_indent; i++) {
             indent[i] = ' ';
         }
 
-        indent[m_chars_per_indent] = '\0';
-
         for (int i = 0; i < m_indentation; i++) {
             ostr << indent;
         }
 
-        ostr.width(2);
-        ostr << m_enumeration << enumeration_suffix << trimmed_contents;
+        if (m_enumeration >= 0) {
+            ostr.width(2);
+            ostr << m_enumeration << "- ";
+        }
+
+        ostr << trimmed_contents;
     } else {
         ostr << "??????????";
     }
