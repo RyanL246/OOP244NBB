@@ -9,18 +9,15 @@
 
 namespace seneca {
     class MenuItem {
-        uint m_enumeration;
+        int m_enumeration;
         uint m_indentation;
         uint m_chars_per_indent;
         char m_contents[MenuItemContentsLimit + 1];
 
         public:
-            MenuItem(const char *contents, uint enumeration, uint indentation, uint chars_per_indent);
+            MenuItem(const char *contents, uint indentation, uint chars_per_indent, int enumeration);
             operator bool() const;
             std::ostream& display(std::ostream& ostr = std::cout) const;
-
-            MenuItem(const MenuItem&)            = delete;
-            MenuItem& operator=(const MenuItem&) = delete;
     };
 }
 

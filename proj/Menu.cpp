@@ -2,10 +2,17 @@
 #include "Menu.h"
 #include "Utils.h"
 
+// Declared here instead of constants.h as it is only used here
+#define INDENT_DIMENSIONS_LIMIT 4 
+
 using namespace seneca;
 
-MenuItem::MenuItem(const char *contents, uint indentation, uint chars_per_indent, uint enumeration) {
-    if (ut.isspace(contents) || ut.strlen(contents) > MenuItemContentsLimit || enumeration > MaximumNumberOfMenuItems) {
+MenuItem::MenuItem(const char *contents, uint indentation, uint chars_per_indent, int enumeration) {
+    const int  size                 = ut.strlen(contents);
+    const bool has_contents         = size > 0 && size < MenuItemContentsLimit && !ut.isspace(contents);
+    const bool within_indent_bounds = indentation <= INDENT_DIMENSIONS_LIMIT && chars_per_indent <= INDENT_DIMENSIONS_LIMIT;
+
+    if (!has_contents || !within_indent_bounds || enumeration > MaximumNumberOfMenuItems) {
         m_contents[0] = 0;
     } else {
         m_enumeration = enumeration;
