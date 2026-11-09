@@ -8,7 +8,7 @@
 using namespace seneca;
 
 MenuItem::MenuItem(const char *contents, uint indentation, uint chars_per_indent, int enumeration) {
-    const int  size                 = ut.strlen(contents);
+    const std::size_t size          = ut.strlen(contents);
     const bool has_contents         = size > 0 && size < MenuItemContentsLimit && !ut.isspace(contents);
     const bool within_indent_bounds = indentation <= INDENT_DIMENSIONS_LIMIT && chars_per_indent <= INDENT_DIMENSIONS_LIMIT;
 
@@ -35,11 +35,11 @@ std::ostream& MenuItem::display(std::ostream& ostr) const {
     if (*this) {
         while (ut.isspace(*trimmed_contents)) trimmed_contents++;
 
-        for (int i = 0; i < m_chars_per_indent; i++) {
+        for (uint i = 0; i < m_chars_per_indent; i++) {
             indent[i] = ' ';
         }
 
-        for (int i = 0; i < m_indentation; i++) {
+        for (uint i = 0; i < m_indentation; i++) {
             ostr << indent;
         }
 
